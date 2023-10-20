@@ -1,0 +1,17 @@
+@import 'open-props/style';
+@import 'open-props/normalize';
+@import '@fontsource/manrope';
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: grid;
+	place-content: center;
+	margin: 0;
+	font-family: 'Manrope', sans-serif;
+	color: hsl(220 10% 98%);
+	background-color: hsl(220 10% 10%);
+}
